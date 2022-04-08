@@ -878,7 +878,7 @@ color: #ffffff;
 .check__input:checked + .check__box{
   width: 16px;
   height: 16px;
-  background-image: url(/images/icon__check.svg);
+  background-image: url(../images/icon__check.svg);
   background-repeat: no-repeat;
 }
 .сonditions-link{
