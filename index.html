@@ -27,7 +27,7 @@
             <li class="header-contact ">
                 <a href="mailto:info@devstudio.com"  class="header-mail  link" >
                     <svg class="header-svg" width="16px" height="12px">
-                        <use href="./images/symbol-header.svg#icon-envelope">
+                        <use href="./images/symbol-header.svg#icon-envelope"></use>
                     </svg>
                     info@devstudio.com
                 </a>
@@ -336,6 +336,7 @@
             </ul>
         </address>
         </div>
+    
         <div class="footer-socials">
         <h3 class="footer-subtitle">Присоединяйтесь</h3>
         <ul class="socials list socials-list-footer">
@@ -373,14 +374,13 @@
             <p class="mailing-subtile">Подпишитесь на рассылку</p>
             <form>
                 <input class="mailing-form" type="email" name="mail" placeholder="E-mail">
+                <button class="mailing-button" type="submit">Подписаться
+                    <svg class="meiling-icon" width="24px" height="24px">
+                        <use href="./images/symbol-modal.svg#icon-icon-send"></use>
+                    </svg>
+                </button>
             </form>
-        </div>
-            <button class="mailing-button" type="submit">Подписаться
-                <svg class="meiling-icon" width="24px" height="24px">
-                    <use href="/images/symbol-modal.svg#icon-icon-send"></use>
-                </svg>
-            </button>
-        
+        </div>   
     </footer>
     <div class="backdrop is-hidden" data-modal>
         <div class="modal-wrapper">
