@@ -880,6 +880,7 @@ color: #ffffff;
   background-repeat: no-repeat;
 
 }
+
 .check__input:checked + .check__box{
   width: 16px;
   height: 16px;
@@ -887,7 +888,8 @@ color: #ffffff;
   background-repeat: no-repeat;
 }
 .check__input:focus + .check__box{
-  border-color: var(--accent-color);
+ background-image: url(../images/box_copy.svg);
+ transition: background-image 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .сonditions-link{
   
